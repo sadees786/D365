@@ -1,0 +1,12 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request",
+        "ConnectionString": "@Microsoft.KeyVault(SecretUri=url/secrets/ConnectionString/47e482a0616943b5b7348932bbce8b1a)"
+      }
+    }
+  }
+}
